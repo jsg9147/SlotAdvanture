@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c362f91dec39704fbe035725897d2be, type: 3}
+  m_Name: BurnDamage
+  m_EditorClassIdentifier: 
+  codeName: SDB004
+  localizedName:
+    m_keys:
+    - ko
+    m_values:
+    - "\uD654\uC0C1"
+  localizedDescription:
+    m_keys:
+    - ko
+    m_values:
+    - "{duration} \uD134 \uB3D9\uC548 {basic} \uB370\uBBF8\uC9C0"
+  localizedBuffDescription:
+    m_keys:
+    - ko
+    m_values:
+    - "{duration} \uD134 \uB3D9\uC548 {basic} \uB370\uBBF8\uC9C0"
+  skillEffects:
+  - skillTag: 1
+    ratioStat: 0
+    applyStat: 0
+    damageType: 3
+    power: 200
+    ratio: 0
+  skillIcon: {fileID: 21300000, guid: cf42bbf30dc6ed24a9d260d79a987071, type: 3}
+  duration: 3
+  pp: 30
+  effectType: 2
+  startTargetPosition: 0
+  effect: {fileID: 8893886830003093458, guid: a02ea992528dc2f45bb10c152b8c7144, type: 3}
+  effectPosition: {x: 0, y: 0, z: 0}
+  effectRotate: {x: 0, y: 0, z: 0, w: 0}
+  effectDelay: 0
+  disapearTime: 0
+  grade: 0

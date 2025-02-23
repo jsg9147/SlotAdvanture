@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9165cb4783ce5aa40921b86f46c79231, type: 3}
+  m_Name: FireRabiit
+  m_EditorClassIdentifier: 
+  namePos: {x: 0, y: 1.8, z: 0}
+  monsterCode: FireRabiit
+  soundGroup:
+    move: {fileID: 8300000, guid: fe6027331868f4f4b9199e06d4e2c77b, type: 3}
+    attack: {fileID: 8300000, guid: 15e667463ee200b409a6147686e478aa, type: 3}
+    damaged: {fileID: 8300000, guid: 1ea4539fe8439ef4b935bb176397280d, type: 3}
+    skill: {fileID: 0}
+  _hp: 500
+  _ad: 150
+  _ap: 150
+  _defense: 50
+  _mr: 50
+  _speed: 150
+  _skills:
+  - {fileID: 11400000, guid: 5599148fa9804a54ebe906993cb77ffd, type: 2}

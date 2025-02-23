@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9165cb4783ce5aa40921b86f46c79231, type: 3}
+  m_Name: MagmaCrap
+  m_EditorClassIdentifier: 
+  namePos: {x: 0, y: 1.8, z: 0}
+  monsterCode: MagmaCrap
+  soundGroup:
+    move: {fileID: 8300000, guid: 69fb2a1608cd8184e8de0d0bed64b35d, type: 3}
+    attack: {fileID: 8300000, guid: de83e5c4b194a824292b1dee45c62b36, type: 3}
+    damaged: {fileID: 8300000, guid: 07b923de8a327a34f8fc5f512b20c0e5, type: 3}
+    skill: {fileID: 8300000, guid: d2a046175044bd14b8b069650fa543ac, type: 3}
+  _hp: 300
+  _ad: 150
+  _ap: 250
+  _defense: 100
+  _mr: 100
+  _speed: 100
+  _skills:
+  - {fileID: 11400000, guid: 19bd46efab3f2604f8023a1575382c9f, type: 2}

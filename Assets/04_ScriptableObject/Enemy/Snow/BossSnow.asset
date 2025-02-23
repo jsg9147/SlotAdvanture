@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9165cb4783ce5aa40921b86f46c79231, type: 3}
+  m_Name: BossSnow
+  m_EditorClassIdentifier: 
+  namePos: {x: 0, y: 1.6, z: 0}
+  monsterCode: BossSnow
+  soundGroup:
+    move: {fileID: 8300000, guid: 87bae2dbe3e53b74f8455d2fe37ba962, type: 3}
+    attack: {fileID: 8300000, guid: ac0bba86563f0df4786be3626824279c, type: 3}
+    damaged: {fileID: 8300000, guid: 6f501007b21f51e40b461466ad402fda, type: 3}
+    skill: {fileID: 0}
+  _hp: 3000
+  _ad: 600
+  _ap: 400
+  _defense: 200
+  _mr: 200
+  _speed: 100
+  _skills:
+  - {fileID: 11400000, guid: 21b794daf0f72dc4d84d2b23cf5fa83b, type: 2}
+  - {fileID: 11400000, guid: d0ee01b4dd145a54497a7ea3e10e8c8d, type: 2}

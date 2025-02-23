@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4279407376884692982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4279407376884692980}
+  - component: {fileID: 4279407376884692981}
+  m_Layer: 0
+  m_Name: PrefabManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4279407376884692980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4279407376884692982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4279407376884692981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4279407376884692982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d11d8beb58632545b4c7c89a6ba304e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontCanvasPrefab: {fileID: 9155411483225699138, guid: cccbfc0c0c8e19a48aabc3d1f5b23382, type: 3}
+  unitPrefabs:
+  - {fileID: 7418031447914014871, guid: 74202e46b04bf804a9ff18baa61cfe61, type: 3}
+  - {fileID: 7418031447914014871, guid: 954b68f3417034040933590bd03c8a6f, type: 3}
+  - {fileID: 7418031447914014871, guid: 4af4e86318f9da547aa599f944b23fa7, type: 3}
+  - {fileID: 7418031447914014871, guid: 7ec145483f60b714484e7fe7ed54c10c, type: 3}
+  - {fileID: 5751672622114265890, guid: 69b7ad4532506704e8c34bb64ab63211, type: 3}
+  - {fileID: -6661328414053623312, guid: fef30ed9e6abb414f877d3532b41356d, type: 3}
+  - {fileID: 8939454011055089362, guid: 113503188de4c2949b5fe902379bcb83, type: 3}
+  - {fileID: 8939454011055089362, guid: f8bf8014814846c4fb19e62efcea5113, type: 3}
+  uiUnitPrefabs:
+  - {fileID: 6089415539714249675, guid: 35dc2dbfd64952846a3dec5dc9c62ccb, type: 3}
+  - {fileID: 206075617141330854, guid: 6f25c793a7a33c147b9c6f895cb0fd19, type: 3}
+  - {fileID: 3220912407609799471, guid: 83b453ebf56ba5647a57f390fc26e3ef, type: 3}
+  - {fileID: 3475820310903101982, guid: a46ed166dbf6471408166debd161e060, type: 3}
+  - {fileID: -9001783934404608853, guid: c2f82d2c0f18eec44a1b8909f6148c2b, type: 3}
+  - {fileID: -3111977582151212290, guid: f271736edd2accf42a8f3f3ab85c0d47, type: 3}
+  - {fileID: 7433846827983543528, guid: 6b4c0fa29b6f53d40a6898299a325a51, type: 3}
+  - {fileID: 6006213560446154274, guid: 44807b27ca52b8f4eac23253c40c91fc, type: 3}
+  - {fileID: 8775435494618623173, guid: 83941771722115241ac7479f2d134afe, type: 3}
+  buffSlotControllerPrefab: {fileID: -2771501832609727301, guid: ff2692cf6a494524f80f91123e463ee4, type: 3}

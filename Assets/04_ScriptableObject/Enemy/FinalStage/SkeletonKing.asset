@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9165cb4783ce5aa40921b86f46c79231, type: 3}
+  m_Name: SkeletonKing
+  m_EditorClassIdentifier: 
+  namePos: {x: 0, y: 1.5, z: 0}
+  localizedName:
+    m_keys: []
+    m_values: []
+  unitName: Skeleton King
+  _hp: 350
+  _ad: 200
+  _ap: 200
+  _defense: 100
+  _mr: 130
+  _speed: 150
+  _skills:
+  - {fileID: 11400000, guid: 6d1d37b4d1f37ab49854f26e69a9d680, type: 2}

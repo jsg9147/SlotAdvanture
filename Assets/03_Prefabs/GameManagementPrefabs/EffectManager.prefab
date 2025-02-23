@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6227015996629220077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6227015996629220079}
+  - component: {fileID: 6227015996629220076}
+  m_Layer: 0
+  m_Name: EffectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6227015996629220079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6227015996629220077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6227015996629220076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6227015996629220077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f22fb111d7d96e4eb15b6b03132ac15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missEffect: {fileID: 100000, guid: 1245cc39360744b4080b211e1b9ba585, type: 3}
+  numberText: {fileID: 6864189613774552722, guid: 2d9329c2bad5c304ea9e343efaa48b76, type: 3}
+  defenseEffectPrefab: {fileID: 105942, guid: 6a7db16825c7c004082d9cfe1354f249, type: 3}
+  healPotionEffectPrefab: {fileID: 105942, guid: 8a9743ee2de310543be168b3eba16778, type: 3}
+  buffPotionEffectPrefab: {fileID: 931352995334258111, guid: 7894e9ff3a821ea42a692a6a0cda4e5c, type: 3}
+  buffAuraPrefabs:
+  - {fileID: 9096659863912767945, guid: 66a7ae7bfc5194441a41d4e0a7abc0c2, type: 3}
+  - {fileID: 9096659863912767945, guid: c5930d85c65f9cc458216b95776e41cc, type: 3}
+  - {fileID: 9096659863912767945, guid: 13e996c86fd66f94185eab2dd9cd6c11, type: 3}
+  damagedEffect: {fileID: 100002, guid: c39a9fcba2149b743b7431d832df6ca1, type: 3}
+  reviveEffect: {fileID: 1679650419486661763, guid: 4c9ae1db9d39712488d704728457800b, type: 3}
+  escapeEffect: {fileID: 145256, guid: 7070dcaa5c4fe4a44ba9a41dcdc8aae6, type: 3}
+  gambleEffect: {fileID: 8502819908245557099, guid: 8ac05725eb38086469705b76929eb709, type: 3}

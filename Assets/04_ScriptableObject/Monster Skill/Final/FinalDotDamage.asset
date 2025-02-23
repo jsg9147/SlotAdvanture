@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c362f91dec39704fbe035725897d2be, type: 3}
+  m_Name: FinalDotDamage
+  m_EditorClassIdentifier: 
+  codeName: CM002
+  skillEffects:
+  - skillTag: 1
+    ratioStat: 0
+    applyStat: 0
+    damageType: 3
+    power: 150
+    ratio: 0
+  skillIcon: {fileID: 21300000, guid: dedac8608be680f4a9e35bc83b8cf3a6, type: 3}
+  duration: 5
+  pp: 999
+  effectType: 2
+  startTargetPosition: 0
+  effect: {fileID: 8893886830003093458, guid: 196b92cad1cdb2e4caa55a562e39a6dd, type: 3}
+  effectPosition: {x: 0, y: 1, z: 0}
+  effectRotate: {x: 0, y: 0, z: 0, w: 0}
+  effectDelay: 0
+  disapearTime: 0
+  grade: 0

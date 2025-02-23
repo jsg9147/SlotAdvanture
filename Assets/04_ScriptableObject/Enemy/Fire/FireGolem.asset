@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9165cb4783ce5aa40921b86f46c79231, type: 3}
+  m_Name: FireGolem
+  m_EditorClassIdentifier: 
+  namePos: {x: 0, y: 1.8, z: 0}
+  monsterCode: FireGolem
+  soundGroup:
+    move: {fileID: 8300000, guid: e1885c93ccbd51c44931fab46e194ed5, type: 3}
+    attack: {fileID: 8300000, guid: 5989122d0c486fa4ead747b1e979d45f, type: 3}
+    damaged: {fileID: 8300000, guid: c90c4632c98b4c5468bbe10dc9fc22e4, type: 3}
+    skill: {fileID: 8300000, guid: 3d8ad9c20d477b94ab235fec19193af5, type: 3}
+  _hp: 400
+  _ad: 300
+  _ap: 100
+  _defense: 150
+  _mr: 50
+  _speed: 110
+  _skills:
+  - {fileID: 11400000, guid: a863d7a99a0565a4d8c73216ecfb3006, type: 2}

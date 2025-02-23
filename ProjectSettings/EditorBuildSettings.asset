@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/00_Scenes/MAIN.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/00_Scenes/BATTLE.unity
+    guid: c0e5226650d421f4e886b8bb4dd20b94
+  - enabled: 1
+    path: Assets/00_Scenes/MAP.unity
+    guid: 905e16656d984984297728914b32926b
+  - enabled: 1
+    path: Assets/00_Scenes/LOBBY.unity
+    guid: bc54099c2506f38459790e47854f6742
+  - enabled: 1
+    path: Assets/00_Scenes/STORE.unity
+    guid: 7c307534ed7046941b315bb172dff19b
+  - enabled: 1
+    path: Assets/00_Scenes/SANCTUARY.unity
+    guid: c461a53f3ed5ebf4480f089f718facf8
+  - enabled: 1
+    path: Assets/00_Scenes/TREASURE.unity
+    guid: 303cf669c671b0a46ae5210dc61d2758
+  - enabled: 1
+    path: Assets/00_Scenes/GAMBLE.unity
+    guid: 1662ab17497734948b9523d549bfb3e9
+  - enabled: 1
+    path: Assets/00_Scenes/LOADING.unity
+    guid: ac6f3697516aacc4e86f34ea7a35d2b7
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: ce3967390c7ce694e9dd262c4e119720, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: eb34607afa180f7429b2e3f00ea8a40c, type: 2}

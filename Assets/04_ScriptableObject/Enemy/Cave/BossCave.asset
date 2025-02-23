@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9165cb4783ce5aa40921b86f46c79231, type: 3}
+  m_Name: BossCave
+  m_EditorClassIdentifier: 
+  namePos: {x: 0, y: 1.7, z: 0}
+  monsterCode: BossCave
+  soundGroup:
+    move: {fileID: 8300000, guid: 20ce0dd4160b6ee42acc78950d38e043, type: 3}
+    attack: {fileID: 8300000, guid: c09209029eac69b4bbc59ae35d04a45a, type: 3}
+    damaged: {fileID: 8300000, guid: 0b6b1396601724b45865964716c3a844, type: 3}
+    skill: {fileID: 0}
+  _hp: 2000
+  _ad: 500
+  _ap: 300
+  _defense: 300
+  _mr: 150
+  _speed: 150
+  _skills:
+  - {fileID: 11400000, guid: 5b33a1f42d3f65a4db2fe7c8bcaadc18, type: 2}
+  - {fileID: 11400000, guid: ccc71467ceebdcf44b1fe85e7fe36f53, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9165cb4783ce5aa40921b86f46c79231, type: 3}
+  m_Name: MaceShadow
+  m_EditorClassIdentifier: 
+  namePos: {x: 0, y: 2, z: 0}
+  monsterCode: MaceShadow
+  soundGroup:
+    move: {fileID: 8300000, guid: b5fc9a2f0a7fefd4e919e47eade6a638, type: 3}
+    attack: {fileID: 8300000, guid: 93bbf9b281a6b4841981eec512c967a9, type: 3}
+    damaged: {fileID: 8300000, guid: 95a184c248d9ea0449a6972d6c1f25b0, type: 3}
+    skill: {fileID: 8300000, guid: 8ce5542699650314a893e2cdd5542538, type: 3}
+  _hp: 400
+  _ad: 350
+  _ap: 0
+  _defense: 100
+  _mr: 100
+  _speed: 120
+  _skills:
+  - {fileID: 11400000, guid: 49b13d7bc256cd14cbd97def7f78c6a9, type: 2}

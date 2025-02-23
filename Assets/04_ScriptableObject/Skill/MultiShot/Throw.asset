@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c362f91dec39704fbe035725897d2be, type: 3}
+  m_Name: Throw
+  m_EditorClassIdentifier: 
+  codeName: SMS002
+  skillEffects:
+  - skillTag: 2
+    ratioStat: 1
+    applyStat: 1
+    damageType: 1
+    power: 500
+    ratio: 0.6
+  skillIcon: {fileID: 21300000, guid: d7dd5e66fd6b86349bd508039a34d46f, type: 3}
+  duration: 15
+  pp: 30
+  effectType: 3
+  startTargetPosition: 0
+  effect: {fileID: 337518950017470707, guid: 41f956c20e52a1f4ca4246b17c74e641, type: 3}
+  effectPosition: {x: 0, y: 0, z: 0}
+  effectRotate: {x: 0, y: 0, z: 0, w: 0}
+  effectDelay: 0
+  disapearTime: 1.5
+  grade: 3

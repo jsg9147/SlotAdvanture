@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9165cb4783ce5aa40921b86f46c79231, type: 3}
+  m_Name: Flower
+  m_EditorClassIdentifier: 
+  namePos: {x: 0, y: 1.8, z: 0}
+  monsterCode: Flower
+  soundGroup:
+    move: {fileID: 8300000, guid: 0ab9e29748d998b448fb576b9092bb90, type: 3}
+    attack: {fileID: 8300000, guid: 1228fdbe6d0f432468c0f3259bcfa2ec, type: 3}
+    damaged: {fileID: 8300000, guid: 8bd9c408a8c7c4c48a31ea2ab1fd46a6, type: 3}
+    skill: {fileID: 0}
+  _hp: 600
+  _ad: 100
+  _ap: 300
+  _defense: 0
+  _mr: 0
+  _speed: 150
+  _skills:
+  - {fileID: 11400000, guid: 0f1c1893baafd0a418cce1cf18877983, type: 2}
+  - {fileID: 11400000, guid: a27b885a3fa2b694f8eebfa16c1cd038, type: 2}

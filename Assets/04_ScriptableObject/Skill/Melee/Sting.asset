@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c362f91dec39704fbe035725897d2be, type: 3}
+  m_Name: Sting
+  m_EditorClassIdentifier: 
+  codeName: SM005
+  skillEffects:
+  - skillTag: 2
+    ratioStat: 1
+    applyStat: 1
+    damageType: 1
+    power: 500
+    ratio: 0.4
+  skillIcon: {fileID: 21300000, guid: eb68721322022054ca7701cbf06f472a, type: 3}
+  duration: 0
+  pp: 20
+  effectType: 0
+  startTargetPosition: 0
+  effect: {fileID: 160763477091416051, guid: 7c8eaa95830c12445b4af33208fbbecc, type: 3}
+  effectPosition: {x: 0.7, y: 0.2, z: 0}
+  effectRotate: {x: 0, y: 0, z: 0, w: 0}
+  effectDelay: 0
+  disapearTime: 0
+  grade: 0

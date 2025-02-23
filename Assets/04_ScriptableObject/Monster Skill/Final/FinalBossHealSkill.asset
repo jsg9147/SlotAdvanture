@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c362f91dec39704fbe035725897d2be, type: 3}
+  m_Name: FinalBossHealSkill
+  m_EditorClassIdentifier: 
+  codeName: CM001
+  skillEffects:
+  - skillTag: 0
+    ratioStat: 0
+    applyStat: 0
+    damageType: 0
+    power: 0
+    ratio: 0.3
+  skillIcon: {fileID: 21300000, guid: 87cc4643bc9d441cd98656686fd5fe3d, type: 3}
+  duration: 0
+  pp: 999
+  effectType: 2
+  startTargetPosition: 0
+  effect: {fileID: 2764048533280007956, guid: dedf92d52c65cd843acd6c6ed84b19d9, type: 3}
+  effectPosition: {x: 0, y: 1, z: 0}
+  effectRotate: {x: 0, y: 0, z: 0, w: 1}
+  effectDelay: 0
+  disapearTime: 1
+  grade: 0

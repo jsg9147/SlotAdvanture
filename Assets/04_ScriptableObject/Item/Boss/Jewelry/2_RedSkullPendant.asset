@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe6a3783120d7047bad6a335333ade6, type: 3}
+  m_Name: 2_RedSkullPendant
+  m_EditorClassIdentifier: 
+  codeName: BJ003
+  localizedName:
+    m_keys:
+    - ko
+    m_values:
+    - "\uB808\uB4DC \uC2A4\uCEEC \uD32C\uB358\uD2B8"
+  localizedDescription:
+    m_keys:
+    - ko
+    m_values:
+    - "\uBAA8\uB4E0 \uC2A4\uD15F {ad} \uC99D\uAC00"
+  itemGrade: 0
+  stageGrade: 020000000200000002000000020000000200000002000000
+  type: 3
+  price: 500
+  icon: {fileID: 21300000, guid: 2b05a38bda1f93e43ad2be856f8d5c59, type: 3}
+  effects:
+  - name: Equip
+    hp: 100
+    ad: 100
+    ap: 100
+    def: 100
+    mr: 100
+    spd: 0
+    acc: 0
+    duration: 0
+    isPotionEffect: 0
+  skillObject: {fileID: 0}

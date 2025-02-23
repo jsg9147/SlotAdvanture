@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe6a3783120d7047bad6a335333ade6, type: 3}
+  m_Name: MegaStorm
+  m_EditorClassIdentifier: 
+  localizedName:
+    m_keys:
+    - ko
+    m_values:
+    - "\uD788\uC5B4\uB85C\uC988\uC624\uBE0C\uC2A4\uD1B0"
+  localizedDescription:
+    m_keys:
+    - ko
+    m_values:
+    - "\uB9C8\uBC95 \uACF5\uACA9\uB825({ap}<sprite=0>) + {basic} \\n\uCD5C\uC885
+      {total} \uB370\uBBF8\uC9C0"
+  stageGrade: 030000000300000003000000030000000300000003000000
+  type: 5
+  price: 10
+  icon: {fileID: 21300000, guid: 9768574278c7b4b488ef9e28beebad06, type: 3}
+  effects:
+  - name: 
+    hp: 0
+    ad: 0
+    ap: 0
+    def: 0
+    mr: 0
+    spd: 0
+    acc: 0
+    duration: 0
+    isPotionEffect: 0
+  skillObject: {fileID: 11400000, guid: 3d3fce97c5d97f445aac221ee8c540dc, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9165cb4783ce5aa40921b86f46c79231, type: 3}
+  m_Name: FloatingIce
+  m_EditorClassIdentifier: 
+  namePos: {x: 0, y: 2.2, z: 0}
+  monsterCode: FloatingIce
+  soundGroup:
+    move: {fileID: 8300000, guid: bbb7c61845b4fdb44977f637bf3f539f, type: 3}
+    attack: {fileID: 8300000, guid: 621326b0a05592e4aaeb6aab14ae3415, type: 3}
+    damaged: {fileID: 8300000, guid: 998362d9e4ab8284d9a5dccd4cd04857, type: 3}
+    skill: {fileID: 0}
+  _hp: 400
+  _ad: 100
+  _ap: 300
+  _defense: 130
+  _mr: 100
+  _speed: 120
+  _skills:
+  - {fileID: 11400000, guid: 5b4b7e3d96b504d44a4253c38931e4c5, type: 2}

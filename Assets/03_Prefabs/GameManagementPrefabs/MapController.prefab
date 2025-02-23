@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2767767674048478939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2767767674048478933}
+  - component: {fileID: 2767767674048478932}
+  m_Layer: 0
+  m_Name: MapController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2767767674048478933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2767767674048478939}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2767767674048478932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2767767674048478939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6d2d069226a9942a4b7c7afcea4c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackSheepWall: 1
+  minSpacialRoomCount: 3
+  minRoomCount: 8
+  maxDistance: 4
+  startRoomPosition: {x: 0, y: 0}
+  tutorialStageBackground: {fileID: 1141138669184690, guid: 6753a40b1035daa4180f5bf73be3e7c6, type: 3}
+  fireStageBackground: {fileID: 1670215706912018, guid: d6c589ca93f158d40bba37b937fe479a, type: 3}
+  forestStageBackground: {fileID: 1972377153373868, guid: 52a35ca04bcd42342b797ef69416a3e1, type: 3}
+  snowStageBackground: {fileID: 1364582653733474, guid: 49a0ef591efcb0d46bef17f7cfb3ff86, type: 3}
+  caveStageBackground: {fileID: 1381329386769068, guid: a71930958aba93349842192754acb9e1, type: 3}
+  lastStageBackground: {fileID: 1575860703766816, guid: 8b6a81d897e15d6438e95e00b1c2f77d, type: 3}

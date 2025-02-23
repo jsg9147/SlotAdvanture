@@ -1,0 +1,77 @@
+﻿key,en,ko,cn
+ok,Ok,확인,好的
+cancel,Cancel,취소,取消
+start,Start,시작,开始
+setting,Setting,설정,选项
+exit,Exit,종료,结尾
+select,Select,선택,选择
+gamble,Gamble,도박,赌博
+complite,Complite,완료,完全的
+hpFull,HEALTH,체력,健康
+adFull,ATTACK DAMAGE,공격력,进攻力
+apFull,ABILITY POWER,주문력,魔力
+defFull,DEFENSE,방어력,防御力
+mrFull,MAGIC RESISTANCE,마법 저항력,魔法防御
+spdFull,SPEED,속도,速度
+accFull,ACCURATE,명중률,准确性
+stat,STAT,능력치,能力
+skill,SKILL,스킬,技能
+selectCharacter,Select Character,캐릭터 선택,角色选择
+gambler,Gambler,도박사,赌徒
+stage,Stage,스테이지,阶段
+Tutorial,Tutorial,튜토리얼,教程
+Fire,Fire,화염,火焰
+Forest,Forest,숲길,森林
+Snow,Snow,눈밭,雪场
+Cave,Cave,동굴,洞穴
+Final,Final,최종,最终
+sanctuary,Sanctuary,성소,圣地
+store,Store,상점,店铺
+casino,Casino,도박장,赌场
+boss,Boss,보스방,精英怪物
+golden,Golden Room,황금방,黄金房
+resolution,Resolution,해상도,解像度
+music,Music,배경 음악,背景音乐
+soundFx,Sound Fx,효과음,音效
+language,Language,언어,语言
+infoPopup,Info Popup,정보창,信息窗口
+close,Close,닫기,关闭
+unitSelect,Select a character,캐릭터 선택창,角色选择
+ghostLeg,Ghost leg,사다리 타기,梯子游戏
+blackjack,Blackjack,블랙잭,二十一点
+glInfo1,1. Choose one of the numbers 1 to 5,1. 1에서 5까지 숫자 중 하나를 선택한다,选择 1 到 5 中的一个数字
+glInfo2,2. When you select a number the cute slime goes down the ladder,2. 숫자를 선택하면 귀여운 슬라임이 사다리를 타고 내려간다.,当你选择一个数字时可爱的史莱姆就会从梯子上下来
+glInfo3,3. When slime arrives at the jackpot you can get an item,3. 슬라임이 아이템에 도착하면 획득할 수 있다,当史莱姆到达大奖时你可以获得一件物品
+glInfo4,4. There is a 20% chance of winning the ladder game,4. 사다리타기에서 당첨 확률은 20% 이다,梯子游戏赛有20%的几率获胜
+bjInfo1,1. The card draw can continue until the end of the turn press a stop button to end the turn.,1. 카드 뽑기는 무한정 가능하며 스톱을 누르면 턴이 종료된다.,抽牌可以持续到回合结束按下停止按钮结束回合
+bjInfo2,2. If the sum of the numbers on each card is higher than its opponent it wins.,2. 카드에 적힌 숫자를 합한 수가 상대방보다 높은 경우 승리한다.,如果每张牌上的数字总和高于对手则获胜
+bjInfo3,3. If the total is over 21 you lose.,3. 총합 21이 넘어가면 즉시 패배,如果总数超过 21您就输了
+bjInfo4,4. If you win with a total of 21 you can get a reward item.,4. 총합 21로 승리 시 아이템을 획득할 수 있다.,总数21分获胜即可获得奖励物品
+bjInfo5,5. If the total number is the same it's a draw,5. 총합 숫자가 같으면 무승부,如果分数相同则平局
+discard,Discard,버리기,丢弃
+use,Use,사용,使用
+reward,Reward,보상,报酬
+draw,Draw,카드 뽑기,抽卡
+stop,Stop,멈추기,停止
+glStart,Start\n(200g),시작\n(200원),开始\n(200元)
+success,Sueccess,성공,成功
+failed,Failed,실패,失败
+skillbookTitle,Acquire skill,스킬 배우기,获得技能
+successRate,Sueccess rate,성공률,成功率
+equip,Equip,장착,装备
+skillRemove,Remove Skill,스킬 지우기,移除技能
+highestPercent,Highest Probability,최고 확률,最高概率
+lowestPercent,Lowest Probability,최저 확률,最低概率
+monsterHighestPercent,Monster's Highest Probability,몬스터의 최고 확률,怪物的最高概率
+monsterLowestPercent,Monster's Lowest Probability,몬스터의 최저 확률,怪物的最低概率
+hitCount,Number of Hits,타격 횟수,击中次数
+missCount,Number of Misses,빗나감 횟수,未击中次数
+monsterHitCount,Number of Hits (Monsters),맞은 횟수,怪物击中次数
+monsterMissCount,Number of Dodges (Monsters),회피 횟수,怪物躲避次数
+skillBookTryCount,Skillbook Attempts,스킬북 시도,技能书尝试次数
+skillBookSuccessCount,Successful Skillbook Attempts,스킬북 성공 횟수,成功的技能书次数
+blackJackCount,Blackjack Attempts,블랙잭 시도 횟수,二十一点尝试次数
+blackJackWinCount,Blackjack Wins,블랙잭 승리 횟수,二十一点胜利次数
+blackJackGetItemCount,Special Blackjack Wins,블랙잭 특수 승리 횟수,特殊二十一点胜利次数
+ghostLegCount,Ghost Leg Attempts,사다리타기 횟수,抽签尝试次数
+ghostLegWinCount,Ghost Leg Wins,사다리타기 승리 횟수,抽签胜利次数

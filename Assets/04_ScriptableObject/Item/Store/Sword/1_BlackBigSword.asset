@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe6a3783120d7047bad6a335333ade6, type: 3}
+  m_Name: 1_BlackBigSword
+  m_EditorClassIdentifier: 
+  codeName: SW002
+  localizedName:
+    m_keys:
+    - ko
+    m_values:
+    - "\uD604\uCCA0\uB300\uAC80"
+  localizedDescription:
+    m_keys:
+    - ko
+    m_values:
+    - "\uACF5\uACA9\uB825 {ad} \uC99D\uAC00\\n\uC18D\uB3C4 {spd} \uAC10\uC18C"
+  itemGrade: 0
+  stageGrade: 010000000100000001000000010000000100000001000000
+  type: 0
+  price: 300
+  icon: {fileID: 21300000, guid: 867ee45ac48a32a4fa7cf200990a938e, type: 3}
+  effects:
+  - name: Equip
+    hp: 0
+    ad: 350
+    ap: 0
+    def: 0
+    mr: 0
+    spd: -10
+    acc: 0
+    duration: 0
+    isPotionEffect: 0
+  skillObject: {fileID: 0}

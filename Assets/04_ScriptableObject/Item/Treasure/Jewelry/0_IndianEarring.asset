@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe6a3783120d7047bad6a335333ade6, type: 3}
+  m_Name: 0_IndianEarring
+  m_EditorClassIdentifier: 
+  codeName: TJ001
+  itemGrade: 0
+  stageGrade: 000000000000000001000000030000000400000004000000
+  type: 3
+  price: 200
+  icon: {fileID: 21300000, guid: c8e5e9d9744b7a54bbe474114a95d9e2, type: 3}
+  effects:
+  - name: Equip
+    hp: 0
+    ad: 0
+    ap: 0
+    def: 150
+    mr: 150
+    spd: 0
+    acc: 0
+    duration: 0
+    isPotionEffect: 0
+  skillObject: {fileID: 0}

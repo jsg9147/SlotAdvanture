@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c362f91dec39704fbe035725897d2be, type: 3}
+  m_Name: BossRangeSkill
+  m_EditorClassIdentifier: 
+  codeName: SDB005
+  skillEffects:
+  - skillTag: 2
+    ratioStat: 1
+    applyStat: 1
+    damageType: 1
+    power: 0
+    ratio: 0.8
+  - skillTag: 1
+    ratioStat: 3
+    applyStat: 3
+    damageType: 0
+    power: -100
+    ratio: 0
+  skillIcon: {fileID: 21300000, guid: 87cc4643bc9d441cd98656686fd5fe3d, type: 3}
+  duration: 2
+  pp: 999
+  effectType: 1
+  startTargetPosition: 0
+  effect: {fileID: 2869507799546066311, guid: ec8e724e3c3a7754894f173ea524fd1d, type: 3}
+  effectPosition: {x: 0, y: 0, z: 0}
+  effectRotate: {x: 0, y: 0, z: 0, w: 1}
+  effectDelay: 0
+  disapearTime: 2
+  grade: 0

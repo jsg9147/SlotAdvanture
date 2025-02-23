@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Weapon
+  m_EditorClassIdentifier: 
+  m_GroupName: Weapon
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 568be31060951df4685037a41eb3e10d
+  m_SerializeEntries:
+  - m_GUID: 24128d7128f78b44585edd26a16f2d70
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W004.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 40875246efaa3f2458c48163d7aa2917
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W003.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a77b05dcf7228a74081fbddc0a4975e0
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W002.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b6b3f9269f51dca40bfb8647c6040636
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W001.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7829d739bc49a1140b9e644b4e45a79f
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W005.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c063924d2a52d7a4392ecdbd1031ff98
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W006.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6e65ba7b91e2d524da3ebc7506333d99
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W007.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 004f6d519f6bce040b01c1251430c2a9
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W008.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c45149872f8ebc948856723031a9448e
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W009.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b9c07c3b572006f4181229e9db77cbfc
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W010.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6a0beb3679736f040b6f6467e4fa80eb
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W011.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c7d462399009194dbcaf3022bd59395
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W012.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 75e881e14b8ec2549b0b1873bb2fbfe4
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W013.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3ed4452712bc7364fa6687e1a5af030a
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W014.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5bfc9b2559fa4574bb3fa3ab76915787
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W015.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2ba59d20c49dca14eb5814afa7d53086
+    m_Address: Assets/02_Sprites/ItemIcon/Weapon/W016.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b14dabf74ff6dce43bd8771d5fa468e5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bc000ba9d7c4ea148ba70f870dfbe059, type: 2}
+    - {fileID: 11400000, guid: 1f23d58f9c7777447a7fd95c718073da, type: 2}

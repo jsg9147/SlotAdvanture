@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Armor
+  m_EditorClassIdentifier: 
+  m_GroupName: Armor
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 168064f2367ff1c4288139a05f122dfb
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b14dabf74ff6dce43bd8771d5fa468e5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4ae791f60e887cf4d9bb570f520c26e2, type: 2}
+    - {fileID: 11400000, guid: 7127fca246786a1408ee8c242de746e6, type: 2}

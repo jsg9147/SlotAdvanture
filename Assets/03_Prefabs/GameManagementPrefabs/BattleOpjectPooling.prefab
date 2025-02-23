@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5259519563707762466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5259519563707762464}
+  - component: {fileID: 5259519563707762467}
+  m_Layer: 0
+  m_Name: BattleOpjectPooling
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5259519563707762464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5259519563707762466}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5259519563707762467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5259519563707762466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744450aa8be30ea48b05c09601b73675, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitNamePrefab: {fileID: 6809264765985946670, guid: eaed1bd426ef23544bd035e62f9e1273, type: 3}
+  firstStageBoss:
+  - {fileID: 8793436818130528907, guid: 64ffb0698dd9a6c428dc61fe291e0330, type: 3}
+  secondStageBoss:
+  - {fileID: 5507597048393982596, guid: 3d030e3c2e3116c42884dc2d0cae16fa, type: 3}
+  - {fileID: 8779231002482175380, guid: cdefb11b495133d48a1c12a6a14c50f0, type: 3}
+  - {fileID: 4137639082892542789, guid: 023561480c218a34f93a76caa6eca770, type: 3}
+  finalStageBoss:
+  - {fileID: 2722985686616308636, guid: dde49a7b24a004e45b7e4dce7f00c72f, type: 3}
+  tutorialStageMonsterPrefabs:
+  - {fileID: 3724079636054031249, guid: 4d4e403da519e0843b7389e29b1b01b9, type: 3}
+  - {fileID: -6188816282953413495, guid: a1d0d66b329f07744892a6b926d16997, type: 3}
+  - {fileID: 2950613742603048126, guid: 2f8f6130c866ccb4eaa70617170f38fd, type: 3}
+  - {fileID: 1635144434684279171, guid: ec24089b476ac4e46a5978aed2bc2798, type: 3}
+  - {fileID: -5239065242496170008, guid: a53721056f0c53a4491fe253c7c03a53, type: 3}
+  fireStageMonsterPrefabs:
+  - {fileID: 4328921466201814276, guid: 4bca73143fce5a84b8416c2e5755d8b5, type: 3}
+  - {fileID: 1109049975770150035, guid: 0a892b390b299e24fa3e28b022b12e5e, type: 3}
+  - {fileID: 7706213884530175944, guid: 58ba28f4cf28fb243860212f571923b7, type: 3}
+  - {fileID: 926769561267772385, guid: 15c39d34748d0534c9cc8d947b112284, type: 3}
+  forestStageMonsterPrefabs:
+  - {fileID: -8162767773110052405, guid: 74c456689f696974aa54ac1d1699faa0, type: 3}
+  - {fileID: 7008830591282641337, guid: ce01b4f99a1d54e4c98b9fc6c01ea4d6, type: 3}
+  - {fileID: 6767381029592956745, guid: 07b9b74c0a4f19a48a8815801164f604, type: 3}
+  - {fileID: 1366991947986489145, guid: c4259568a53d25449894a4f1247cc449, type: 3}
+  - {fileID: 3290710263737798385, guid: 007e58e69793f8045a2b221a39c3fa76, type: 3}
+  - {fileID: 4260819369126773595, guid: b1896941a82e2c042aad3284adf64c21, type: 3}
+  caveStageMonsterPrefabs:
+  - {fileID: 1406794535170787313, guid: bce940588a20aad44b60450642cb8f2e, type: 3}
+  - {fileID: 4487325735936520747, guid: 974daff59bf4e7348944221e27bc0b2d, type: 3}
+  - {fileID: 277476143459794724, guid: 0050aa19a8567e5449b2fabb331a90c6, type: 3}
+  snowStageMonsterPrefabs:
+  - {fileID: 6101696420149944867, guid: 0a3de2a63995acb49a9cdcb8cd49d62f, type: 3}
+  - {fileID: 1620041471189381473, guid: c989db30fef58ab48ac45dc63d8ed137, type: 3}
+  - {fileID: 714779031988785615, guid: b486aae38f7230444aa83420acd205f2, type: 3}
+  finalStageMonsterPrefabs:
+  - {fileID: 3357754807528309689, guid: 076b12637374767458bbbf39a3f6a014, type: 3}
+  - {fileID: 8213631121446134096, guid: 688d174bccb589b4884b378d721b63ef, type: 3}
+  - {fileID: 4357930013551502566, guid: 41a6fef4d291f5040a9b549c31c5faca, type: 3}
+  - {fileID: 1614706813370265426, guid: 678eb9a11f7b8b7468aeef7d577109fb, type: 3}
+  - {fileID: 3120930362980376431, guid: 8aa835d772149c842b378bfed9589995, type: 3}
+  - {fileID: 5702580692650980775, guid: d9e18793198a8044ea13bb3fe57fd8de, type: 3}
+  heroPositions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  monsterPositions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  horizentalBar: {fileID: 4074036903192180168, guid: 8a1bce713108e7b4582cba0c622f5903, type: 3}
+  hpBarParent: {fileID: 0}
+  endMarkPrefab: {fileID: 8648318251118440976, guid: 76961e8cbba0c59439bd93de2cf44ae8, type: 3}
+  starMark: {fileID: 1520582460652966310, guid: 54d315314ed12b54ca5fbb7b9b7d7efa, type: 3}
+  eliteChance: 0.3

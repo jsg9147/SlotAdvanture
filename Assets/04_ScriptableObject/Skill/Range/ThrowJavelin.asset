@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c362f91dec39704fbe035725897d2be, type: 3}
+  m_Name: ThrowJavelin
+  m_EditorClassIdentifier: 
+  codeName: SR004
+  localizedName:
+    m_keys:
+    - ko
+    m_values:
+    - "\uD22C\uCC3D"
+  localizedDescription:
+    m_keys:
+    - ko
+    m_values:
+    - "\uACF5\uACA9\uB825({ad}) + 150 \\n\uCD5C\uC885 {total} \uB370\uBBF8\uC9C0"
+  localizedBuffDescription:
+    m_keys: []
+    m_values: []
+  skillEffects:
+  - skillTag: 2
+    ratioStat: 1
+    applyStat: 1
+    damageType: 1
+    power: 150
+    ratio: 1.2
+  skillIcon: {fileID: 21300000, guid: 34bb810954cfcdf44a95c5134d64d37b, type: 3}
+  duration: 0
+  pp: 30
+  effectType: 1
+  startTargetPosition: 0
+  effect: {fileID: 337518950017470707, guid: 41f956c20e52a1f4ca4246b17c74e641, type: 3}
+  effectPosition: {x: 0, y: 0, z: 0}
+  effectRotate: {x: 0, y: 0, z: 0, w: 0}
+  effectDelay: 0
+  disapearTime: 1.5
+  grade: 2

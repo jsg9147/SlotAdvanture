@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: d6de1cef14492084c990cb4559ab56a9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Wanjudaedunsanche
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a4b661a370eb0ab49b82d7b3320a4cbe, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

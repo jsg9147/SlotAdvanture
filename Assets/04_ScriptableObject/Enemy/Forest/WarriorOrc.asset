@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9165cb4783ce5aa40921b86f46c79231, type: 3}
+  m_Name: WarriorOrc
+  m_EditorClassIdentifier: 
+  namePos: {x: 0, y: 1.8, z: 0}
+  monsterCode: WarriorOrc
+  soundGroup:
+    move: {fileID: 8300000, guid: 3a9df674eff79144e919cee57128428f, type: 3}
+    attack: {fileID: 8300000, guid: 19cacd48270255a49bbd584c0e036919, type: 3}
+    damaged: {fileID: 8300000, guid: c72a66f1d7d5d9242812da99977ee4a4, type: 3}
+    skill: {fileID: 0}
+  _hp: 700
+  _ad: 300
+  _ap: 0
+  _defense: 50
+  _mr: 50
+  _speed: 130
+  _skills:
+  - {fileID: 11400000, guid: 3364dba263d4e9a489679009c41bf3ec, type: 2}

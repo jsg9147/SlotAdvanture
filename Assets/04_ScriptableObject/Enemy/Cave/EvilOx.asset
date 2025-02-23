@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9165cb4783ce5aa40921b86f46c79231, type: 3}
+  m_Name: EvilOx
+  m_EditorClassIdentifier: 
+  namePos: {x: 0, y: 2, z: 0}
+  monsterCode: EvilOx
+  soundGroup:
+    move: {fileID: 8300000, guid: 6e52e74f603673443b0e568b0eb96fd7, type: 3}
+    attack: {fileID: 8300000, guid: a132629f4a7991148a2d7903fb890488, type: 3}
+    damaged: {fileID: 8300000, guid: 9f7a7e175c4c45b4382d72939e787296, type: 3}
+    skill: {fileID: 8300000, guid: d941fa2d66ec1274c88f2c67f2705ed0, type: 3}
+  _hp: 600
+  _ad: 350
+  _ap: 0
+  _defense: 0
+  _mr: 0
+  _speed: 150
+  _skills:
+  - {fileID: 11400000, guid: 7c3387491708e6743ac43890e22efa95, type: 2}

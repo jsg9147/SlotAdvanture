@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c362f91dec39704fbe035725897d2be, type: 3}
+  m_Name: PowerSlash
+  m_EditorClassIdentifier: 
+  codeName: SM004
+  localizedName:
+    m_keys:
+    - ko
+    m_values:
+    - "\uD30C\uC6CC \uC2AC\uB798\uC26C"
+  localizedDescription:
+    m_keys:
+    - ko
+    m_values:
+    - "\uACF5\uACA9\uB825({ad}) + {basic} \\n\uCD5C\uC885 {total} \uB370\uBBF8\uC9C0"
+  localizedBuffDescription:
+    m_keys: []
+    m_values: []
+  skillEffects:
+  - skillTag: 2
+    ratioStat: 1
+    applyStat: 1
+    damageType: 1
+    power: 300
+    ratio: 0.6
+  skillIcon: {fileID: 21300000, guid: dd5485fe457e06546bc7f53f9091720a, type: 3}
+  duration: 0
+  pp: 20
+  effectType: 0
+  startTargetPosition: 0
+  effect: {fileID: 2869507799546066311, guid: 9bb30969df0da104e92be154674fec3a, type: 3}
+  effectPosition: {x: 0, y: 0, z: 0}
+  effectRotate: {x: 0, y: 0, z: 0, w: 0}
+  effectDelay: 0
+  disapearTime: 0
+  grade: 0
