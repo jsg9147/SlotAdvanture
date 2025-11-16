@@ -42,3 +42,28 @@ The following packages were updated:
   com.unity.ide.rider from version 3.0.16 to 3.0.18
   com.unity.ide.visualstudio from version 2.0.16 to 2.0.17
   com.unity.visualscripting from version 1.7.8 to 1.8.0
+
+=== Sun Nov 16 00:03:07 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ai.navigation@2.0.9
+  com.unity.modules.accessibility@1.0.0
+  com.unity.multiplayer.center@1.0.0
+The following packages were updated:
+  com.unity.2d.spriteshape from version 7.0.7 to 12.0.1
+  com.unity.addressables from version 1.19.19 to 2.7.2
+  com.unity.collab-proxy from version 2.0.1 to 2.9.3
+  com.unity.feature.2d from version 1.0.0 to 2.0.1
+  com.unity.ide.rider from version 3.0.18 to 3.0.37
+  com.unity.ide.visualstudio from version 2.0.17 to 2.0.23
+  com.unity.postprocessing from version 3.2.2 to 3.5.0
+  com.unity.render-pipelines.universal from version 12.1.10 to 17.2.0
+  com.unity.test-framework from version 1.1.31 to 1.6.0
+  com.unity.timeline from version 1.6.4 to 1.8.9
+  com.unity.ugui from version 1.0.0 to 2.0.0
+  com.unity.visualscripting from version 1.8.0 to 1.9.7
+The following packages were removed:
+  com.unity.textmeshpro@3.0.6

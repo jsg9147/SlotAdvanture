@@ -47,7 +47,7 @@ namespace TmDice25D
         private void OnCollisionEnter2D(Collision2D collision)
         {
             ac.Play();
-            if (rb.velocity.sqrMagnitude < 10f)
+            if (rb.linearVelocity.sqrMagnitude < 10f)
             {
                 state = RollStarte.Stop;
             }
@@ -70,7 +70,7 @@ namespace TmDice25D
                 }
                 state = RollStarte.Roll;
                 rb.isKinematic = false;
-                rb.velocity = Vector2.zero;
+                rb.linearVelocity = Vector2.zero;
                 rb.AddForce(rollVec);
 
                 Roll();

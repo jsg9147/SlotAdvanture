@@ -164,6 +164,7 @@ public class BattleManager : MonoBehaviour
 
         monsterSelectMark.transform.position = markPos;
         monsterSelectMark.transform.SetParent(monster.transform);
+        monsterSelectMark.SetActive(true);
         //monsterSelectMark.transform.localScale = monster.transform.localScale;
     }
     public void SelectHero(Unit unit)
@@ -173,6 +174,7 @@ public class BattleManager : MonoBehaviour
 
         selected_Hero = unit;
 
+        playerSelectMark.SetActive(true);
         playerSelectMark.transform.position = unit.transform.position + (Vector3.left * selectMarkPosition.x) + (Vector3.up * selectMarkPosition.y);
         battleUI.ActionButtonInteractable(!selected_Hero.actionEnd);
         battleUI.SetUnitData(selected_Hero);
